@@ -13,4 +13,5 @@ Motion::Project::App.setup do |app|
   app.name = 'android_studio'
   app.resources_dirs = ['res']
   app.sub_activities = ['DisplayResultImcActivity']
+  app.api_version = '21'
 end
