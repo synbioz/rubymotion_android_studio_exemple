@@ -28,7 +28,8 @@
             android:layout_width="350dp"
             android:layout_height="134dp"
             android:id="@+id/textResult"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -48,9 +49,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="48"
             android:id="@+id/textImc"
             android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textImcCategory"
+            android:layout_gravity="center"
+            android:textStyle="bold|italic" />
+
     </LinearLayout>
 
 </LinearLayout>
